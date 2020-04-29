@@ -1,0 +1,116 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+body{
+	/* background: #2F4F4F; */
+	color: #6f4e37;
+}
+
+.container{
+	width:80%;
+	margin:auto;
+}
+
+header{
+	height: 350px;
+	width: 100%;
+	margin: 50px auto;
+}
+
+.banner{
+	width: 100%;
+}
+
+.coffee-banner{
+	width:100%;
+}
+
+.coffee-filter{
+	width:50%;
+	float: left;
+}
+
+.filter{
+	width: 100%;
+}
+.coffee-para{
+	float:left;
+	/* padding:20px; */
+	width:50%;
+	border:3px solid red;
+
+}
+.coffee::after{
+	clear:both;
+	display: table;
+	content:"";
+
+}
+nav{
+	height: 100px;
+	width: 100%;
+
+
+}
+.nav-list{
+	margin:auto;
+
+	height: 100%;
+	width: 100%;
+
+
+}
+.nav{
+	list-style: none;
+	display:inline-block;
+	font-size: 23px;
+	background: #764d30;
+	width: 19.6%;
+	height: 100%;
+	margin:auto;
+	padding: 30px  ;
+}
+
+/* main{
+	height: 350px;
+	width: 100%;
+	font-size: 18px;
+	margin: 30px 0;
+	padding : 25px 100px;
+	background: #FFE4C4;
+	color: #764d30;
+	border:3px solid red;
+
+} */
+#name{
+	margin-left: 12px;
+}
+#email{
+	margin-left: 17px;
+}
+#submit{
+	width:100px;
+	height:40px;
+	background: #764d30;
+	color:#ffe4c4;
+}
+
+.varietyImage{
+	width: 300px;
+	height: 300px; 
+}
+
+footer{
+	width: :100%;
+	height: 100px;
+	background: #764d30;
+	color: white;
+	text-align: center;
+	padding: 20px;
+	margin: 30px 0;
+
+
+}
